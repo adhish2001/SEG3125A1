@@ -1,16 +1,32 @@
 <html>
 	<head>
-		<title>Questionaire</<title>
+		<title>Questionaire<title>
 	</head>
 	<body>
-		<p>
-			Hello, thank you for taking the time to particapte in our questionaire.
+		<p>Hello, thank you for taking the time to particapte in our questionaire.
 			We are local animal shelter known as Happy Garden. Our goal is to connect
-			rescue pets with kind and loving families. <hr>Please fill out our questionaire so we can get back to you once we know
-			what pets you are looking for.
-		</p>
+			rescue pets with kind and loving families. <hr>Please fill out our questionaire
+			so we can get back to you once we know what pet you are looking for.</p>
 		<form>
-			
+			<p>Tell us about yourself first</p>
+			First name:<input type="text" anem="firstname"><br>
+			Last name:<input type="text" name ="lastname">
+			<p>How many pets have adopted(please do not include fish ;) )</p><br>
+			<input type="radio" name="amt" value="zero">0<br>
+			<input type="radio" name="amt" value="few">1-2<br>
+			<input type="radio" name="amt" value="avg">3-4<br>
+			<input type="radio" name="amt" value="pro">4+<br>
+			<p>So what type of pets are you open to adopt</p>
+			<input type="checkbox" name="Dogs" value="Dogs">Dogs<br>
+			<input type="checkbox" name="Cats" value="Cats">Cats<br>
+			<input type="checkbox" name="Rodents" value="Rodents">Rodents<br>
+			<input type="checkbox" name="Birds" value="Birds">Birds<br>
+			<p>Approximately when do you expect to visit us in person</p>
+			<select name="time">
+				<option value="As soon as possible" selected="selected">ASAP</option>
+				<option value="Within a few weeks">Weeks</option>
+				<option value="Within a couple of months">Months</option>	
+			</select>
 		</form>
 	</body>
 </html>
