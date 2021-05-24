@@ -1,0 +1,48 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #06C6C9;
+    color: white;
+    font-size: 30px;
+    font-family: Comic Sans Ms;
+}
+.intro{
+    font-family: Verdana;
+    background: white;
+    font-size: 18px;
+    text-align: left;
+    padding:20px;
+    color: #125450;
+}
+input[type=text]{
+    width:90%;
+}
+input[type=select]{
+    width:90%;
+}
+input[type=submit]{
+    width:90%;
+    color:white;
+    background-color: #125450;
+    height: 20px;
+}
+.questionnaire {
+    text-align:left;
+    padding: 20px;
+    background: white;
+    font-size: 13;
+    font-family:Verdana;
+    color:#353D3D;
+}
+.puppy{
+    height: auto;
+    max-width:100%;
+}
+.footer{
+    font-family: Verdana;
+    background: black;
+    font-size: 13px;
+    text-align: left;
+    padding:10px;
+    color: white;
+}
